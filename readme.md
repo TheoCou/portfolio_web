@@ -1,5 +1,5 @@
 # Portfolio Web
-## Bienvenue sur mon portfolio v2
+## Bienvenue sur mon portfolio v2 👋
 
 Lien vers le [Portfolio](https://theocou.github.io/portfolio_web/)
 
