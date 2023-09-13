@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -9,6 +10,9 @@ body {
     letter-spacing: .1rem;
     background: var(--bgcolor-theme);
     color: var(--text-color);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
 }
 
 * {
@@ -41,11 +45,50 @@ input {
 }
 
 :root {
-    --bgcolor-theme: #040404;
+    --bgcolor-theme: #121212;
     --text-color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    text-shadow: 0 0 20px #00FFFC, 2px 3px 3px #141414, 0 0 100px #00D4D1;
+    color: #00FFFC;
 }
 
 h3 {
     font-size: 7rem;
     text-align: center;
+}
+
+#gallery-primary-log {
+    height: 30rem;
+}
+
+section ul.gallery-primary-logo {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+section ul.gallery-primary-logo img {
+    padding: 1rem;
+    width: 100%;
+}
+
+section ul.gallery-primary-logo li{
+    clip-path: circle(80%); /* masque */
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.60rem #00FFFC);
+}
+
+section ul.gallery-primary-logo li:hover{
+    clip-path: circle(50%);
+}
+
+footer {
+    text-align: center;
+    padding: 3.5rem 0 3.5rem 0;
+    border-top: solid 2px;
 }
