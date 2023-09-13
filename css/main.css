@@ -1,7 +1,8 @@
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     font: 1.6rem 'Roboto', sans-serif;
     margin: 0;
     line-height: 1.6;
@@ -9,31 +10,42 @@ body{
     background: var(--bgcolor-theme);
     color: var(--text-color);
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-h1,h2,h3,p,ul,ol{
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
     padding: 0;
     margin: 0;
     list-style-type: none;
     font-weight: normal;
 }
+
 /* ajouter les images */
-a{
+a {
     text-decoration: none;
     color: #222;
 }
-button, input{
+
+button,
+input {
     padding: 0;
     background: none;
     border: 0;
 }
-:root{
+
+:root {
     --bgcolor-theme: #040404;
     --text-color: #fff;
 }
 
-h3{
+h3 {
     font-size: 7rem;
     text-align: center;
 }
