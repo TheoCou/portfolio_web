@@ -32,3 +32,8 @@ button, input{
     --bgcolor-theme: #040404;
     --text-color: #fff;
 }
+
+h3{
+    font-size: 7rem;
+    text-align: center;
+}
