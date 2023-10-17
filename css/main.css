@@ -6,6 +6,7 @@ html {
 
 body {
     font: 1.6rem 'Roboto', sans-serif;
+    background-color: #eff0f3;
     margin: 0;
     line-height: 1.6;
     letter-spacing: .1rem;
@@ -42,8 +43,12 @@ input {
     border: 0;
 }
 
+header img {
+    height: 50vh;
+}
+
 footer {
     text-align: center;
     padding: 3.5rem 0 3.5rem 0;
-    border-top: solid 2px;
+    border-top: solid 2px #ff8e3c;
 }
