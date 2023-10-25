@@ -44,7 +44,32 @@ input {
 }
 
 header img {
-    height: 50vh;
+    height: 40vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 3.75rem;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    position: relative;
 }
 
 footer {
