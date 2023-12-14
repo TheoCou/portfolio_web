@@ -113,9 +113,11 @@ header ul li a {
 }
 
 .margin_content_main {
-
-    padding: 9rem 10% 0 10%;
+    padding: 15% 10% 0 10%;
+    text-align: left;
+    font-size: larger;
 }
+
 
 
 footer {
