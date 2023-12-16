@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
 
@@ -122,13 +121,6 @@ header ul li a {
     font-size: larger;
 }
 
-/* figure {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start; #03a9f4 
-} */
-
 .cont {
     margin: 10% 50% 45%;
 }
@@ -180,36 +172,6 @@ header ul li a {
 		);
 	}
 }
-
-/* figcaption {
-    margin-left: 10%;
-    font-size: 5rem;
-    font-family: "Poppins", sans-serif;
-    font-family: 'Cinzel', serif;
-} */
-/* 
-.animate-charcter {
-    background-image: linear-gradient(-225deg,
-            #231557 0%,
-            #7f5af0e5 29%,
-            #72757ee5 67%,
-            #2cb67de5 100%);
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 5s linear infinite;
-    display: inline-block;
-    
-} */
-
-/* @keyframes textclip {
-    to {
-        background-position: 200% center;
-    }
-} */
 
 .languages-content img {
     height: 15rem;
