@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <link rel="icon" type="image/png" href="./asset/inconweb.svg">
     <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio web</title>
 </head>
@@ -44,7 +45,7 @@
 
 
 
-            <div class="margin_pres">
+            <div data-aos="fade-right" class="margin_pres">
 
                 <h1>Portfolio développeur</h1>
 
@@ -90,7 +91,8 @@
                     <div class="languages-content">
 
                         <figure>
-                            <img class="logo_idée logos_1" src="./asset/IDEE.png" alt="logo idee" loading="lazy">
+                            <img class="logo_idée logos_1" data-aos="fade-right" src="./asset/idea.png" alt="logo idee"
+                                loading="lazy">
                             <figcaption>
                                 <h3>
                                     Partir d'une idée
@@ -99,7 +101,8 @@
                         </figure>
 
                         <figure>
-                            <img class="logo_codage logos_1" src="./asset/CODAGE.png" alt="logo codage" loading="lazy">
+                            <img class="logo_codage logos_1" data-aos="fade-down" src="./asset/CODAGE.png"
+                                alt="logo codage" loading="lazy">
                             <figcaption>
                                 <h3>
                                     La schématiser
@@ -108,7 +111,7 @@
                         </figure>
 
                         <figure>
-                            <img class="logo_design_dev logos_1" src="./asset/DEV_DESIGN.png"
+                            <img class="logo_design_dev logos_1" data-aos="fade-left" src="./asset/enplace.png"
                                 alt="logo developpement_design" loading="lazy">
                             <figcaption>
                                 <h3>
@@ -127,11 +130,27 @@
 
                     <div class="languages-content">
 
-                        <img class="logo_html" src="./asset/HTMLLOGO.png" alt="logo html" loading="lazy">
+                        <figure>
+                            <img class="logo_html" src="./asset/HTMLLOGO.png" alt="logo html" loading="lazy">
+                            <figcaption>
+                                HTML
+                            </figcaption>
+                        </figure>
 
-                        <img class="logo_php" src="./asset/php_logo.png" alt="logo php" loading="lazy">
+                        <figure>
+                            <img class="logo_php" src="./asset/php_logo.png" alt="logo php" loading="lazy">
+                            <figcaption>
+                                PHP
+                            </figcaption>
+                        </figure>
 
-                        <img class="logo_css" src="./asset/CSSLOGO.png" alt="logo css" loading="lazy">
+                        <figure>
+                            <img class="logo_css" src="./asset/CSSLOGO.png" alt="logo css" loading="lazy">
+                            <figcaption>
+                                CSS
+                            </figcaption>
+                        </figure>
+
 
                         <figure>
                             <img class="logo_java" src="./asset/JAVALOGO.png" alt="logo java" loading="lazy">
@@ -245,12 +264,10 @@
         </div>
 
         <!-- Download CV -->
-        <div class="download_cv">
+        <div class="download_cv download_button">
 
-            <button class="download_button"><a href="./asset/CV_Theo_COURSON.pdf"
-                    download="CV_Theo_COURSON.pdf">Télécharger
-                    mon CV</a>
-            </button>
+            <a href="./asset/CV_Theo_COURSON.pdf" download="CV_Theo_COURSON.pdf">Télécharger
+                mon CV</a>
 
         </div>
 
@@ -314,6 +331,12 @@
 
     </footer>
     <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

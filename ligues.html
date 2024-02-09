@@ -20,56 +20,111 @@
         <h1>Projet Maison Des Ligues</h1>
     </header>
 
-    <!-- Footer -->
-    <footer class="footer-distributed">
 
-        <div class="footer-left">
+    <main>
+        <div class="margin_content_main" id="accueil">
+            <div class="shadow-section margin_pres">
+                <h1>Maison Des Ligues</h1>
+                <h2>Introduction :</h2>
+                <p class="pres_intro">
 
+                    Dans le cadre de la Maison des Ligues de Lorraine (M2L), un système de gestion des employés des
+                    ligues est nécessaire pour assurer un suivi efficace des ressources humaines. Actuellement, un
+                    responsable utilise une application en ligne de commande mono-utilisateur pour cette tâche.
+                    Cependant, cette application nécessite une mise à jour pour répondre aux besoins croissants en
+                    termes de fonctionnalités et d'accessibilité.
 
-            <p class="footer-links">
-                <a href="https://theocou.github.io/SuperPortfolio_TC/">| Accueil |</a>
+                    Objectifs du Projet :
 
-            </p>
+                    Développer une nouvelle application 3-tiers pour la gestion des employés des ligues.
+                    Rendre l'application multi-utilisateurs avec une architecture basée sur une base de données.
+                    Implémenter des niveaux d'habilitation pour différents types d'utilisateurs : employé de ligue,
+                    administrateur de ligue, et super-administrateur.
+                    Caractéristiques de l'Application :
 
-            <p class="footer-company-name"> &copy;Théo Courson, All rights reserved</p>
-        </div>
-        <div class="footer-center">
-            <div>
-                <p>Paris, France</p>
+                    Architecture 3-Tiers : L'application est conçue selon une architecture 3-tiers, comprenant une
+                    interface utilisateur, une logique métier et une base de données.
+                    Niveaux d'Habilitation :
+                    Employé de Ligue : Peut consulter les données mais n'a pas de droits d'écriture.
+                    Administrateur de Ligue : Possède des droits d'écriture pour gérer les employés de sa propre ligue
+                    via une application bureau.
+                    Super-Administrateur : A un accès en écriture à tous les employés des ligues et peut gérer les
+                    comptes des administrateurs de ligues via une application en ligne de commande.
+                    Interface Utilisateur : L'application offre une interface conviviale pour une utilisation facile par
+                    les différents utilisateurs.
+                    Base de Données : La gestion des données est assurée par une base de données relationnelle
+                    permettant le stockage et la récupération des informations sur les employés et les ligues.
+                    Composants du Projet :
+
+                    Arbre Heuristique : Un arbre heuristique a été développé pour représenter chaque menu et option de
+                    l'application, permettant une navigation intuitive pour les utilisateurs.
+
+                    Lien vers l'Arbre Heuristique
+                    Modèle Conceptuel de Données (MCD) : Un MCD a été conçu pour représenter les données de
+                    l'application en utilisant une base de données relationnelle.
+
+                    Entités : Ligue, Employé
+                    Attributs : ID, Nom, Prénom, Email, Mot de passe, Date d'arrivée, Date de départ, Statut
+                    Relations : Employé est associé à une Ligue
+                    Schéma Relationnel :
+                    EMPLOYE(ID, Nom, Prénom, Email, Mot de passe, Date d'arrivée, Date de départ, Statut, #ID_Ligue)
+                    LIGUE(ID, Nom)
+                    Création de la Base de Données (BDD) : La BDD a été mise en place à l'aide de Laragon, avec des
+                    tables correspondantes aux entités du MCD.
+
+                    Schéma de la BDD
+                    Tables Laragon
+                    Conclusion :
+
+                    Le projet vise à fournir une solution robuste et évolutive pour la gestion des employés des ligues à
+                    la M2L. En adoptant une approche 3-tiers et en mettant en place des niveaux d'habilitation,
+                    l'application répondra efficacement aux besoins des différents utilisateurs tout en garantissant la
+                    sécurité et l'intégrité des données.</p>
             </div>
-            <div>
 
-                <p>(+33)7.77.28.62.92</p>
-            </div>
 
-            <div>
+            <!-- Footer -->
+            <footer class="footer-distributed">
 
-                <p><a href="mailto:support@company.com">theocourson@gmail.com</a></p>
-            </div>
+                <div class="footer-left">
 
-        </div>
 
-        <div class="footer-right" id="footer">
+                    <p class="footer-links">
+                        <a href="./index.html">| Accueil |</a>
+                    </p>
 
-            <p class="footer-company-about">
-                Retrouvez moi sur les réseaux sociaux.
-            </p>
+                    <p class="footer-company-name"> &copy;Théo Courson, All rights reserved</p>
+                </div>
+                <div class="footer-center">
+                    <div>
+                        <p>Paris, France</p>
+                    </div>
 
-            <div class="footer-icons">
+                    <div>
+                        <p><a href="mailto:support@company.com">theocourson@gmail.com</a></p>
+                    </div>
 
-                <a href="#"><img src="asset/twitter.png" alt="twitter" style="width: 40px; height: 40px;"></a>
+                </div>
 
-                <a href="https://www.linkedin.com/in/th%C3%A9o-courson-1a9680227/"><img src="asset/linkedin.png"
-                        alt="linkedin" style="width: 40px; height: 40px;"></a>
+                <div class="footer-right" id="footer">
 
-                <a href="https://www.instagram.com/theo.crs/"><img src="asset/instagram.png" alt="instagram"
-                        style="width: 40px; height: 40px;"></a>
+                    <p class="footer-company-about">
+                        Retrouvez moi sur les réseaux sociaux.
+                    </p>
 
-            </div>
+                    <div class="footer-icons">
 
-        </div>
+                        <a href="https://www.linkedin.com/in/th%C3%A9o-courson-1a9680227/"><img src="asset/linkedin.png"
+                                alt="linkedin" style="width: 40px; height: 40px;"></a>
 
-    </footer>
+                        <a href="https://www.instagram.com/theo.crs/"><img src="asset/instagram.png" alt="instagram"
+                                style="width: 40px; height: 40px;"></a>
+
+                    </div>
+
+                </div>
+
+            </footer>
 </body>
 
 </html>
